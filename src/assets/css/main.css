@@ -1,0 +1,74 @@
+.mainBox {
+  width: 100%;
+  height: calc(100vh - 60px);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background: linear-gradient(#2bc0e4, #eaecc6);
+}
+
+.mainBox h1 {
+  margin-bottom: 80px;
+  font-size: 30px;
+  color: #fff;
+}
+
+.mainBox form {
+  width: 100%;
+  height: 150px;
+  border: 1px solid #eee;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 150px;
+
+  box-shadow: 1px 1px 15px;
+}
+
+.loginLabel {
+  width: 100%;
+  height: 40px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginLabel label {
+  width: 120px;
+  color: #999;
+  font-weight: 700;
+  font-size: 18px;
+}
+.loginLabel input {
+  outline: none;
+  background: none;
+
+  width: 200px;
+  height: 30px;
+  border: 1px solid #999;
+  border-radius: 5px;
+
+  padding: 0px 5px;
+  transition: 0.5s;
+}
+
+.loginLabel input:hover {
+  box-shadow: 1.5px 1.5px 1.5px royalblue;
+}
+
+.mainBox form input[type="submit"] {
+  outline: none;
+  background: none;
+
+  width: 200px;
+  border-radius: 15px;
+}

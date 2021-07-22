@@ -1,15 +1,19 @@
 import express from "express";
 import {
-  testScreen,
   friendController,
   messageController,
   profileController,
+  loginController,
+  mainController,
 } from "../controllers/globalController";
+
 const globalRouter = express.Router();
 
-globalRouter.get("/", testScreen);
+globalRouter.get("/", mainController);
 globalRouter.get("/friends", friendController);
 globalRouter.get("/message", messageController);
 globalRouter.get("/profile", profileController);
+
+globalRouter.post("/login", loginController);
 
 export default globalRouter;

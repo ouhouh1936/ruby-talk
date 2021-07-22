@@ -36,24 +36,6 @@
   width: 100%;
   height: calc(70vh - 60px);
 }
-.phead {
-  width: 100%;
-  height: 60px;
-  background-color: rgb(23, 32, 58);
-  border-bottom: 1px solid #fff;
-  color: #fff;
-
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-
-  padding: 0px 15px;
-}
-.phead div:nth-child(1) {
-  font-size: 24px;
-  font-weight: bold;
-}
 .ptop {
   width: 100%;
   height: 40vh;
