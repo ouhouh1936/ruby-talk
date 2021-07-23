@@ -7,7 +7,7 @@
   align-items: center;
   justify-content: center;
 
-  background: linear-gradient(#2bc0e4, #eaecc6);
+  background: linear-gradient(#ee9da8, #ffdde1);
 }
 
 .mainBox h1 {
@@ -54,7 +54,7 @@
 
   width: 200px;
   height: 30px;
-  border: 1px solid #999;
+  border: 1px solid rgb(141, 141, 141);
   border-radius: 5px;
 
   padding: 0px 5px;
@@ -62,7 +62,7 @@
 }
 
 .loginLabel input:hover {
-  box-shadow: 1.5px 1.5px 1.5px royalblue;
+  box-shadow: 1.5px 1.5px 1.5px #fdfaf66e;
 }
 
 .mainBox form input[type="submit"] {
